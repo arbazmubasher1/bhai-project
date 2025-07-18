@@ -62,6 +62,19 @@ export default function Login() {
             className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
           >
             Sign In
+
+          <div className="text-sm text-right text-blue-600 hover:underline">
+  <a href="/forgot-password">Forgot Password?</a>
+</div>
+
+<input type="password" ... />
+
+<div className="text-sm text-right text-blue-600 hover:underline">
+  <a href="/forgot-password">Forgot Password?</a>
+</div>
+
+<button type="submit">Sign In</button>
+
           </button>
         </form>
       </div>
