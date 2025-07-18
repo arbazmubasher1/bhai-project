@@ -57,24 +57,17 @@ export default function Login() {
             required
             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
+
+          {/* Forgot password link */}
+          <div className="text-sm text-right text-blue-600 hover:underline">
+            <a href="/forgot-password">Forgot Password?</a>
+          </div>
+
           <button
             type="submit"
             className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
           >
             Sign In
-
-          <div className="text-sm text-right text-blue-600 hover:underline">
-  <a href="/forgot-password">Forgot Password?</a>
-</div>
-
-<input type="password" ... />
-
-<div className="text-sm text-right text-blue-600 hover:underline">
-  <a href="/forgot-password">Forgot Password?</a>
-</div>
-
-<button type="submit">Sign In</button>
-
           </button>
         </form>
       </div>
